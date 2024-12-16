@@ -1,2 +1,20 @@
 # NetIdleOff
-NetIdleOff monitoriza la velocidad de la red y apaga tu PC si se mantiene por debajo de un umbral configurable durante un tiempo definido, ahorrando energía y evitando mantener el equipo encendido innecesariamente.
+
+**NetIdleOff** es una herramienta que supervisa continuamente la velocidad de descarga de la red y apaga automáticamente tu equipo cuando la actividad de red permanece por debajo de un umbral definido durante un tiempo determinado. ¡Perfecto para dejar descargas durante la noche y ahorrar energía!
+
+## Características
+
+- **Monitoreo en tiempo real:** Muestra la velocidad de descarga actual.
+- **Umbral personalizable:** Ajusta la velocidad mínima en Kbps a partir de la cual se considera “inactividad”.
+- **Tiempo de inactividad configurable:** Define cuántos segundos de baja actividad son necesarios para ejecutar el apagado.
+- **Interfaz gráfica sencilla:** Configura todo a través de una ventana intuitiva creada con *customtkinter*.
+- **Automatización del apagado:** Una vez cumplidas las condiciones, el equipo se apaga sin necesidad de intervención manual.
+
+> **Nota:** Esta aplicación está pensada para **Windows**. En caso de usar otros sistemas operativos, deberás ajustar el comando de apagado en el código.
+
+## Requisitos
+
+- **Python 3.x**
+- [psutil](https://pypi.org/project/psutil/)  
+  ```bash
+  pip install psutil
