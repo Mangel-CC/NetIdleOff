@@ -18,3 +18,6 @@
 - [psutil](https://pypi.org/project/psutil/)  
   ```bash
   pip install psutil
+- [customtkinter](https://pypi.org/project/customtkinter/)  
+  ```bash
+  pip install customtkinter
