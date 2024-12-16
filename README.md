@@ -1,6 +1,6 @@
 # NetIdleOff
 
-**NetIdleOff** es una herramienta que supervisa continuamente la velocidad de descarga de la red y apaga automáticamente tu equipo cuando la actividad de red permanece por debajo de un umbral definido durante un tiempo determinado. ¡Perfecto para dejar descargas durante la noche y ahorrar energía!
+**NetIdleOff** es una herramienta que supervisa continuamente la velocidad de descarga de la red y apaga automáticamente tu equipo cuando la actividad de red permanece por debajo de un umbral definido durante un tiempo determinado.
 
 ## Características
 
